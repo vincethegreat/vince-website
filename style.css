@@ -171,5 +171,26 @@
     margin-left: 265px;
     margin-bottom: 150px;
 }
+.quote-container {
+    display:flex;
+    background-color: #E5E7EB;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    border: 4px;
+    border-color: blue;
+    width: 1000px;
+    margin-left: 50px;
+}
+.thor {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 190px;
+}
 
 
