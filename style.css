@@ -1,4 +1,7 @@
-* { margin: 0; }
+* { margin: 0;
+    font-family: arial;    
+}
+
 .header-container {
     display: flex;
     height: 50px;
@@ -192,5 +195,50 @@
     font-weight: bold;
     padding-top: 190px;
 }
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 900px;
+    background-color: #3882F6;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 350px;
+    border-radius: 14px;
+}
+.call {
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
 
-
+}
+.sign {
+    font-size: 18px;
+    color: white;
+}
+.second-signButton {
+    border-color: white;
+    background-color: #3882F6;
+    border-style: solid;
+    color: white;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    border-radius: 15px;
+    transition: background-color 0.50s, color 0.50s;
+}
+.second-signButton:hover {
+    background-color: white;
+    color: #3882F6;
+}
+.second-signButton:active {
+    color: white;
+    background-color: #77a8f7;
+}
