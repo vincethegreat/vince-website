@@ -1,0 +1,152 @@
+* { margin: 0; }
+.header-container {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    margin: 0;
+
+}
+.header-container .logo {
+    margin-right: 550px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.header-container .header-one {
+    margin-right: 20px;
+}
+.header-container .header-two {
+    margin-right: 20px;
+}
+.header-container .header-three {
+    margin-right: 20px;
+}
+.logo:link {
+    text-decoration: none;
+    color: white;
+}
+  
+.logo:visited {
+    text-decoration: none;
+    color: white;
+}
+  
+.logo:hover {
+    text-decoration: underline;
+    color: white;
+}
+  
+.logo:active {
+    text-decoration: underline;
+    color: white;
+}
+.header-one:link {
+    text-decoration: none;
+    color: white;
+}
+.header-one:visited {
+    text-decoration: none;
+    color: white;
+}
+.header-one:hover {
+    text-decoration: none;
+    color: white;
+}
+.header-one:active {
+    text-decoration: none;
+    color: white;
+}
+.header-two:link {
+    text-decoration: none;
+    color: white;
+}
+.header-two:visited {
+    text-decoration: none;
+    color: white;
+}
+.header-two:hover {
+    text-decoration: none;
+    color: white;
+}
+.header-two:active {
+    text-decoration: none;
+    color: white;
+}
+.header-three:link {
+    text-decoration: none;
+    color: white;
+}
+.header-three:visited {
+    text-decoration: none;
+    color: white;
+}
+.header-three:hover {
+    text-decoration: none;
+    color: white;
+}
+.header-three:active {
+    text-decoration: none;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    height: 500px;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.item1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+}
+.item2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 250px;
+}
+.sign-button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-style: solid;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-width: 0px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+}
+.sign-button:hover {
+    background-color: #3881f673
+}
+.sign-button:active {
+    opacity: 0.2;
+}
+.item3 {
+    width: 500px;
+    height: 190px;
+    background: gray;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 20px;
+}
+
+
